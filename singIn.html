@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.min.css" />
+  <title>Вход в личный кабинет</title>
+</head>
+
+  <body>
+    <header class="header">
+  <div class="conteiner">
+    <div class="header__menu menu">
+      <div class="header__logo">
+        <div>
+          <a href="index.html"><img src="img/logo.svg" alt="" /></a>
+        </div>
+        <button type="button" class="menu__icon icon-menu"><span></span></button>
+      </div>
+      <div class="header__wrapper">
+        <nav class="menu__body">
+          <ul class="menu__list">
+            <li class="menu__item"><a href="index.html" class="menu__link menu_active">Главная</a></li>
+            <li class="menu__item"><a href="autopark.html" class="menu__link">Автопарк</a></li>
+            <li class="menu__item"><a href="target.html" class="menu__link">Аренда</a></li>
+            <li class="menu__item"><a href="for-bisness.html" class="menu__link">Для бизнеса</a></li>
+            <li class="menu__item"><a href="requisite.html" class="menu__link">Контакты</a></li>
+            <li class="menu__item"><a href="singIn.html" class="menu__link">Личный кабинет</a></li>
+          </ul>
+
+          <div class="menu__item social">
+            <a href="" class="menu__link social__link _icon-fb"></a>
+            <a href="" class="menu__link social__link _icon-inst"></a>
+            <a href="" class="menu__link social__link"><img src="img/vk.svg" alt="Вконтакте" /></a>
+            <a href="" class="menu__link social__link _icon-whatsapp"> <img src="img/whatseapp.svg" alt="whatsapp" /></a>
+          </div>
+        </nav>
+        <div class="header__block">
+          <a href="tel:89958883094" class="header__phone">8 (995) 888-30-94</a>
+          <div class="header__apps" data-da=".menu__list,576">
+            <a href="" class="header__app"><img src="img/app-store.svg" alt="app" /></a>
+            <a href="" class="header__app"><img src="img/google-store.svg" alt="app" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+    <!--  -->
+    <section class="main-sing" >
+  <div class="conteiner">
+    <div class="main__sign-in sing-in">
+      <form action="#" class="sing-in__form">
+        <div class="sing-in__buttons">
+          <a class="button__sign-in sing-in__button  button button__blur">Вход</a>
+          <a class="button__log-in sing-in__button button">Регистрация</a>
+        </div>
+        
+        <div class="sing-in__field">
+          <label for="log" class="sing-in__text" >Логин</label>
+          <input type="text" class="sign-in__input input" id="log">
+        </div>
+        <div class="sing-in__field">
+          <label for="password" class="sing-in__text" >Пароль</label>
+          <input  id="password" type="password" class="sign-in__input input">
+        </div>
+        <div class="sing-in__field field-check">
+         <label  class="sing-in__text ">
+           <input id='reme' type="checkbox" > 
+           <span></span>Запомнить меня на этом компьютере
+        </label>
+          
+        </div>
+        <button class="button__sign button" type="submit">Авторизоваться</button>
+       
+      </form>
+     <p class="sing-in__text">Войти с помощью</p>
+      <div class="sign-in__links">
+        <a href="https://www.google.ru/" class="sign-in__link"><span class="_icon-googlein"></span></a>
+        <a href="https://vk.com/" class="sign-in__link"><span class="_icon-vkin"></span></a>
+        <a href="https://www.facebook.com/" class="sign-in__link"><span class="_icon-fbin"></span></a>
+      </div>
+      <p class="sing-in__text">Вы можете войти через аккаунт в социальных сетях</p>
+      <span class="decor"></span>
+      <a href="#" class="sign-in__help">Забыли пароль?</a>
+    </div>
+  
+</section>
+
+
+
+<section class="main-log" >
+  <div class="conteiner">
+    <div class="main__sign-in log-in">
+      <form action="#" class="log-in__form">
+        <div class="log-in__buttons">
+          <a class="button__sign-in log-in__button  button" id="sig_in">Вход</a>
+          <a class="button__log-in log-in__button button " >Регистрация</a>
+        </div>
+        <div class="log-in__fields">
+          <div class="log-in__field">
+            <label for="login" class="log-in__text  log-in__text-gray  form__warn" >Логин</label>
+            <input type="text" class="sign-in__input input" id="log">
+          </div>
+          <div class="log-in__field">
+            <label for="pass" class="log-in__text  log-in__text-gray  form__warn" >Пароль</label>
+            <input  id="pass" type="password" class="sign-in__input input">
+          </div>
+          <div class="log-in__field">
+            <label for="passwordrep" class="log-in__text log-in__text-gray   form__warn" >Подтверждение пароля</label>
+            <input  id="passwordrep" type="password" class="sign-in__input input">
+          </div>
+          <div class="log-in__field">
+            <label for="email" class="log-in__text  log-in__text-gray  form__warn" >Адрес e-mail</label>
+            <input  id="email" type="email" class="sign-in__input input">
+          </div>
+          <div class="log-in__field" > 
+            <label for="name" class="log-in__text log-in__text-gray   " >Имя</label>
+            <input  id="name" type="password" class="sign-in__input input">
+          </div>
+          <div class="log-in__field">
+            <label for="firstname" class="log-in__text log-in__text-gray  "  >Фамилия</label>
+            <input  id="firstname" type="password" class="sign-in__input input">
+          </div>
+        </div>
+        
+
+         <label  class="log-in__text label__check">
+           <input id='reme' type="checkbox" > 
+           <span></span>Согласен на обработку личных данных
+        </label>
+        <label  class="log-in__text label__check">
+          <input id='reme' type="checkbox" > 
+          <span></span>      Я хочу учавствовать в бесплатной программе лояльности и получать баллы, информацию о скидках и акциях
+       </label>
+     
+       
+      </form>
+      <span class="decor"></span>
+      <p class="log-in__text">Пароль  должен быть не менее 6 символов длиной. Символом “   ” отмечены обязательные для заполнения поля.</p>
+    
+      <p class="log-in__text"> 1 - Настоящим в соответствии с Федеральным законом № 152-ФЗ “О персональных данных” от 27.07.2006 Вы подтверждаете свое согласие на обработку персональных данных. С политикой можно ознакомиться по ссылке</p>
+    </div>
+  
+</section>
+
+
+
+<section class="main-forgot" >
+  <div class="conteiner">
+    <div class="main__forgot forgot">
+      <p class="forgot__text">Если вы забыли пароль, введите логин или E-Mail. Контрольная строка для смены пароля, а также ваши регистрационные данные, будут высланы вам по E-Mail</p>
+
+      <form action="#" class="forgot__form">
+       
+        <div class="forgot__fields">
+          <div class="forgot__field">
+            <label for="login" class="forgot__text  forgot__text-gray  " >Логин</label>
+            <input type="text" class="forgot__input input" id="log">
+          </div>
+          <div class="forgot__field">
+            <label for="pass" class="forgot__text  forgot__text-gray  " >Пароль</label>
+            <input  id="pass" type="password" class="forgot__input input">
+          </div>
+        </div>
+        
+
+       <button class="forgot__button button">Выслать</button>
+      </form>
+      <span class="decor"></span>
+    
+      <a class="forgot__text autorization-text">Авторизация</a>
+    </div>
+  
+</section>
+
+    <!--  -->
+    <footer class="footer">
+  <div class="conteiner">
+    <div class="footer-inner">
+      <div class="logo">
+        <img src="img/f.png" alt="logo" />
+      </div>
+      <ul class="menu__list footer__menu">
+        <li class="menu__item"><a href="" class="menu__link menu_active">Главная</a></li>
+        <li class="menu__item"><a href="" class="menu__link">Автопарк</a></li>
+        <li class="menu__item"><a href="" class="menu__link">Аренда</a></li>
+        <li class="menu__item"><a href="" class="menu__link">Для бизнеса</a></li>
+        <li class="menu__item"><a href="" class="menu__link">Контакты</a></li>
+        <li class="menu__item"><a href="" class="menu__link">Личный кабинет</a></li>
+      </ul>
+    </div>
+  </div>
+  <p class="footer__name-company">2022 © galeoncar</p>
+  <a href="#" class="footer__politic">Политика конфиденциальности</a>
+  <div class="footer__social social">
+    <a href="" class="footer__link"><span class="_icon-fb"></span></a>
+    <a href="" class="footer__link"><span class="_icon-inst"></span></a>
+    <a href="" class="footer__link"><img src="img/vk.svg" alt="Картинка" /></a>
+    <a href="" class="footer__link"><img src="img/whatseapp.svg" alt="Картинка" /></a>
+  </div>
+</footer>
+
+    <!--  -->
+    <div class="car">
+  <div class="conteiner">
+    <div class="car-inner">
+      <h2 class="title car__title">Porsche 911 Carrera 4s</h2>
+      <span class="close-button car-close"></span>
+      <div class="car__views views-car">
+        <div class="views-car__main main-car">
+          <div class="main-car__slider swiper">
+            <div class="main-car__swiper swiper-wrapper">
+              <div class="main-car__slide swiper-slide">
+                <img src="img/car-example.jpg" alt="машина" />
+              </div>
+              <div class="main-car__slide swiper-slide">
+                <img src="img/car-example.jpg" alt="машина" />
+              </div>
+              <div class="main-car__slide swiper-slide">
+                <img src="img/car-example.jpg" alt="машина" />
+              </div>
+              <div class="main-car__slide swiper-slide">
+                <img src="img/car-example.jpg" alt="машина" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="views-car__more more-car">
+          <div class="more-car__wrap">
+            <div class="more-car__slider swiper">
+              <div class="more-car__swiper swiper-wrapper">
+                <div class="more-car__slide swiper-slide">
+                  <div class="more-car__item"><img src="img/car-example1.jpg" alt="машина" /></div>
+                </div>
+                <div class="more-car__slide swiper-slide">
+                  <div class="more-car__item"><img src="img/car-example2.jpg" alt="машина" /></div>
+                </div>
+                <div class="more-car__slide swiper-slide">
+                  <div class="more-car__item"><img src="img/car-example3.jpg" alt="машина" /></div>
+                </div>
+                <div class="more-car__slide swiper-slide">
+                  <div class="more-car__item"><img src="img/car-example4.jpg" alt="машина" /></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="car__footer">
+        <div class="car__descriptions descriptions-car">
+          <div class="descriptions-car__item">
+            <h4 class="descriptions-car__title">Марка</h4>
+            <p class="descriptions-car__about">PORSHE</p>
+          </div>
+          <div class="descriptions-car__item">
+            <h4 class="descriptions-car__title">Мощность</h4>
+            <p class="descriptions-car__about">184 л.с.</p>
+          </div>
+          <div class="descriptions-car__item">
+            <h4 class="descriptions-car__title">Привод</h4>
+            <p class="descriptions-car__about">Полный</p>
+          </div>
+          <div class="descriptions-car__item">
+            <h4 class="descriptions-car__title">Объем двигателя</h4>
+            <p class="descriptions-car__about">2.0 л</p>
+          </div>
+          <div class="descriptions-car__item">
+            <h4 class="descriptions-car__title">Количество мест</h4>
+            <p class="descriptions-car__about">5</p>
+          </div>
+          <div class="descriptions-car__item">
+            <h4 class="descriptions-car__title">Расход</h4>
+            <p class="descriptions-car__about">7.5 л на 100км</p>
+          </div>
+          <div class="descriptions-car__item">
+            <h4 class="descriptions-car__title">Max скорость</h4>
+            <p class="descriptions-car__about">230 км/ч</p>
+          </div>
+          <div class="descriptions-car__item">
+            <h4 class="descriptions-car__title">Разгон</h4>
+            <p class="descriptions-car__about">6.9 сек до 100 км/ч</p>
+          </div>
+          <div class="descriptions-car__item car-item__color">
+            <h4 class="descriptions-car__title">Доступные цвета</h4>
+            <div class="car-item__color-block">
+              <div class="car__color"></div>
+              <div class="car__color"></div>
+              <div class="car__color"></div>
+              <div class="car__color"></div>
+              <div class="car__color"></div>
+            </div>
+          </div>
+        </div>
+        <div class="car__booking booking-car">
+          <button class="booking-car__button button">Заказать машину</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- //========================================================================================================== -->
+<div class="selection-auto">
+  <div class="selection-overlay">
+    <div class="selection-modal">
+      <div class="selection-modal__close close-button"></div>
+      <h3 class="selection-modal__title">ПОДОБРАТЬ АВТОМОБИЛЬ</h3>
+      <div id="select" class="select selection__select">
+        <div class="select__backdrop" data-type="backdrop"></div>
+        <div class="select__input" data-type="input">Марка автомобиля</div>
+        <div class="select__dropdowm" data-simplebar>
+          <ul class="select__list">
+            <li class="select__item">Porsche</li>
+            <li class="select__item">Audio</li>
+            <li class="select__item">BMW</li>
+            <li class="select__item">Mersedes</li>
+          </ul>
+        </div>
+      </div>
+      <div id="select1" class="select selection__select">
+        <div class="select__backdrop" data-type="backdrop"></div>
+        <div class="select__input" data-type="input">Модель автомобиля</div>
+        <div class="select__dropdowm" data-simplebar>
+          <ul class="select__list">
+            <li class="select__item">Модель3</li>
+            <li class="select__item">Модель1</li>
+            <li class="select__item">Модель2</li>
+            <li class="select__item">Модель3</li>
+            <li class="select__item">Модель4</li>
+            <li class="select__item">Модель5</li>
+          </ul>
+        </div>
+      </div>
+      <div id="select2" class="select selection__select">
+        <div class="select__backdrop" data-type="backdrop"></div>
+        <div class="select__input" data-type="input">Тип автомобиля</div>
+        <div class="select__dropdowm" data-simplebar>
+          <ul class="select__list">
+            <li class="select__item">Тип1</li>
+            <li class="select__item">Тип2</li>
+            <li class="select__item">Тип3</li>
+          </ul>
+        </div>
+      </div>
+      <button class="selection__button button-type2">ВЫБРАТЬ</button>
+    </div>
+  </div>
+</div>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/app.min.js"></script>
+  </body>
+</html>
